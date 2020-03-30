@@ -16,3 +16,9 @@ used in raytrace programs.
 The surface sag bending modes are at
 \url{https://github.com/bxin/M2_FEA/blob/master/data/M2_1um_72_sag.txt}
 This follows the same format as the surface normal modes.
+
+Important note: if you want to use the mat file 
+\url{https://github.com/bxin/M2_FEA/blob/master/data/myUdn3norm_72.mat},
+which came out of Matlab calculations directly, bending modes #18,19,and 20 are the way they are out of the SVD. 
+While the other txt files above have #26,27 and 28 in place of #18,19 and 20. 
+These are out of observability and controlability considerations.
