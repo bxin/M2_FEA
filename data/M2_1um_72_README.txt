@@ -1,3 +1,10 @@
+The coordinate system (CS) used for the data in this repo is the M2 CS.
+
+- The origin of the M2 CS is on the system optical axis, and at M2 vertex (6156.201mm from M1 vertex, based on v3.3 optical design <https://confluence.lsstcorp.org/display/SYSENG/As-built+optical+model>).
+- The +x axis points toward actuators B8/B9.
+- The +y axis points toward tangent link A1 and actuator B1.
+- The +z axis points toward the sky.
+
 The final bending mode forces based on the finite element model as
 delivered by Harris
 \url{https://github.com/bxin/M2_FEA/blob/master/data/M2_1um_72_force.txt}.
